@@ -124,6 +124,7 @@ STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = 'index'
 LOGOUT_REDIRECT_URL = 'index'
 LOGIN_URL = '/users/login/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 BOOTSTRAP3 = {
     'include_jquery': True,
 }
